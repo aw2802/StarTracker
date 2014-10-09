@@ -82,3 +82,7 @@ td {
 .zebra{
 	background:peachpuff;
 }
+
+#disclaimer{
+	display:none;
+}
