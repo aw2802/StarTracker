@@ -14,5 +14,7 @@ $(document).ready(function(){
  	$('#toggleButton').click(function(){
  		$('#disclaimer').toggle();
  	})
+ 	$('<strong>START</strong>').prependTo('#disclaimer')
+ 	$('<strong>END</strong>').appendTo('#disclaimer')
 
 });
