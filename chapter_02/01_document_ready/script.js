@@ -9,12 +9,16 @@ $(document).ready(function(){
   // 	$('#disclaimer').show();
   // })
 
-$('#toggleButton').click(function(){
-	if($('#disclaimer').is(':visible')){
-		$('#disclaimer').hide();
-	}
-	else{
-		$('#disclaimer').show();
-	}
- })
+// $('#toggleButton').click(function(){
+// 	if($('#disclaimer').is(':visible')){
+// 		$('#disclaimer').hide();
+// 	}
+// 	else{
+// 		$('#disclaimer').show();
+// 	}
+//  })
+ 	$('#toggleButton').click(function(){
+ 		$('#disclaimer').toggle();
+ 	})
+
 });
