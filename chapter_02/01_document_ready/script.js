@@ -13,7 +13,6 @@ $(document).ready(function(){
  	$("<input type='button' id='toggleButton' value='hide or show'/>").insertAfter('#disclaimer');
  	$('#toggleButton').click(function(){
  		$('#disclaimer').toggle('slow');
- 		$Alert('Toggle DONE!!!');
  	})
 
 });
